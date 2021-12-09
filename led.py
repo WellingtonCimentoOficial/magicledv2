@@ -111,7 +111,7 @@ def banner():
 
 def menu():
 	print(Style.BRIGHT + "IP: " + Fore.GREEN + ip + Style.RESET_ALL + Style.BRIGHT + "     Port1: " + Fore.GREEN + str(port1) + Style.RESET_ALL + Style.BRIGHT + "     Port2: " + Style.RESET_ALL + str(port2) + Style.BRIGHT + "     Status: " + status + Style.RESET_ALL)
-	print(Style.BRIGHT + "\nCommands: " + Style.RESET_ALL + "turn on *device*, turn off *device*, list device *device*,\nlist devices, add device *name*, delete device *name*, list token\n")
+	print(Style.BRIGHT + "\nCommands: " + Style.RESET_ALL + "turn on *device*, turn off *device*, list device *device*,\nlist devices, add device *name*, delete device *name*, list token *device*\n")
 
 def connection():
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
